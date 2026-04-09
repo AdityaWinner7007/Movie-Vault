@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainContainer {
+  
+  width: 100%;
+  background-image: url(BG.SVG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    color: wheat;
+    font-size: 70px
+}
+
+
+.favmovieGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   
+}
+.favMovieGrid1{
+
+       overflow: hidden;
+    border: 2px solid rgb(99, 31, 31);
+    border-radius: 10px;
+    padding: 30px;
+    border: 10px;
+    position: relative;
+   
+}
+
+
+
+.delete{
+    font-size: x-large;
+        position: absolute;
+    
+        top: 286px;
+    right: 40px;
+}
+
+.title{
+        font-family: fantasy;
+    font-size: xxx-large;
+    color: wheat;
+}
+
+.favMovieGrid1 img{
+    border: 1px;
+    border-radius: 12px;
+      height: 300px;
+   width: 100%;
+   object-fit: cover;
+   position: relative;
+}
+.backtohome{
+
+      background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 110%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+

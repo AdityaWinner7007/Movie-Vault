@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+}
+.mainContainer {
+  /* height: 100vh; */
+  width: 100%;
+  background-image: url(BG.SVG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.navigationBar {
+  display: flex;
+
+  border: 2px solid black;
+  padding: 5px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationBar img {
+  width: 5vw;
+}
+
+.homeButton {
+  margin: 10px;
+  padding: 6px;
+  border: none;
+  background-color: #030a1b;
+  color: white;
+  cursor: pointer;
+   font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.MoviesButton {
+  margin: 10px;
+  padding: 6px;
+  border: none;
+  background-color: #030a1b;
+  color: white;
+  cursor: pointer;
+   font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.SeriesButton {
+  margin: 10px;
+  padding: 6px;
+  border: none;
+  background-color: #030a1b;
+  color: white;
+  cursor: pointer;
+   font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.search {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px; 
+  outline: none;
+}
+
+.search-btn {
+  position: absolute;
+  right: 24px;
+  top: 6%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: none
+}
+
+
+.container{
+   padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: auto;
+  gap: 10px; 
+  position: relative;
+
+  
+}
+
+.moviesGrid1{
+    overflow: hidden;
+    border: 2px solid rgb(99, 31, 31);
+    border-radius: 10px;
+    padding: 30px;
+    border: 10px;
+    position: relative;
+}
+.moviesGrid1 img{
+   height: 400px;
+   width: 100%;
+   object-fit: cover;
+
+}
+
+.moviesGrid1 h2{
+    color: wheat;
+
+
+}
+.moviesGrid1 p{
+    color: wheat;
+}
+
+.errorr{
+    grid-column: 1/5; 
+    padding: 40px;
+    color: wheat;
+    text-align: center;
+    margin: 30vh;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+
+.FaviconContainer {
+    position: absolute;
+    top: 387px;
+    right: 35px;
+    top: 360px; 
+    right: 25px;
+    z-index: 10;
+    font-size: xxx-large;
+    
+ 
+  
+}
+
+.favButton
+  {
+    font-size: 50px; 
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+    transition: transform 0.2s ease;
+
+  }
+
+
+  .SearchMovie{
+    grid-column: 1/5; 
+    padding: 40px;
+    color: wheat;
+    text-align: center;
+    margin: 30vh;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .buttonFav{
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 140%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navigationRightSide{
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}

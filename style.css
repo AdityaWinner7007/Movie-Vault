@@ -183,3 +183,10 @@
   align-items: center;
   gap: 53px;
 }
+
+@media (max-width: 768px) {
+  .movieGrid{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important; 
+  }
+}
